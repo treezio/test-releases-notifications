@@ -7,7 +7,7 @@ application = Flask(__name__)
 @application.route('/info', methods=['GET'])
 def info():
     response = application.response_class(
-        response='v1.0',
+        response='v0.1.0',
         status=200,
         mimetype='application/json'
     )
